@@ -1,0 +1,106 @@
+header {
+    background-color: rgb(255, 39, 39);
+    text-align: center;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+.cuadrado {
+  background-color: #ffecec;     /* fondo rosado */
+  border: 2px solid #ff6b6b;     /* borde visible */
+  border-radius: 15px;           /* esquinas redondeadas */
+  padding: 20px;                 /* espacio interno */
+  width: 80%;                    /* ancho del cuadro */
+  margin: 40px auto;             /* centrado horizontal */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra */
+  text-align: center;
+}
+
+.cuadrado h2 {
+    font-size: 20px;
+    color:#b00000
+
+} 
+
+.cuadrado p {
+    font-size: 18px;
+    color:#333
+}
+
+.imagenes {
+  display: flex;               /* coloca las imágenes una al lado de la otra */
+  justify-content: center;     /* centra el grupo */
+  gap: 15px;                   /* espacio entre ellas */
+  margin: 30px auto;           /* espacio alrededor */
+}
+
+.imagenes img {
+  width: 200px;                /* tamaño de cada imagen */
+  height: 150px;               /* alto igual para todas */
+  object-fit: cover;           /* recorta sin deformar */
+  border-radius: 10px;         /* esquinas redondeadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra suave */
+}
+
+.sabores {
+  text-align: center;
+  margin: 40px auto;
+  background-color: #fff8f6;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sabores h3 {
+  font-size: 1.8em;
+  color: #c85a54;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sabores ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sabores li {
+  background-color: #ffeae7;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 1.1em;
+  color: #4b2c2c;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sabores li:hover {
+  background-color: #ffdad6;
+  transform: scale(1.03);
+}
+
+/* Imagen */
+.imagen-postre img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  margin-top: 15px;
+  display: none; /* oculto al inicio */
+}
+
+.ig {
+width: 50px;
+height: 50px;
+}
+
+h5 {
+   font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: right;
+    color: #340b4d;
+}
